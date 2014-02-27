@@ -34,6 +34,7 @@ _externalRequirements = [
     'Products.CMFPlone',
     'z3c.autoinclude',
     'rdflib',
+    'plone.app.dexterity[grok]',
 ]
 _classifiers = [
     'Development Status :: 3 - Alpha',
