@@ -20,6 +20,7 @@ RESERVED. U.S. Government Sponsorship acknowledged.
         description='Laboratory Catalog and Archive System for the EDRN Knowledge Environment'
         provides='Products.GenericSetup.interfaces.EXTENSION'
     />
+    <browser:resourceDirectory name='eke.labcas' directory='static'/>
     <include
         zcml:condition='installed Products.GenericSetup.upgrade'
         file='upgrades.zcml'

@@ -21,6 +21,16 @@ class ILabCASDataset(model.Schema):
     )
     identifier = schema.TextLine(
         title=_(u'Identifier'),
-        description=_(u'Unique URI that identifies this resource. Conventionally, this is a URL into LabCAS.'),
+        description=_(u'Unique RDF URI that identifies this resource. Conventionally, this is a URL into LabCAS.'),
         required=True,
+    )
+    uploader = schema.TextLine(
+        title=_(u'Uploaded By'),
+        description=_(u'User name of the person who uploaded this dataset.'),
+        required=False,
+    )
+    datasetID = schema.TextLine(
+        title=_(u'Dataset ID'),
+        description=_(u'Dataset identifier, which is somehow different from the RDF identifier.'),
+        required=False,
     )

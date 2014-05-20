@@ -35,6 +35,7 @@ _externalRequirements = [
     'z3c.autoinclude',
     'rdflib',
     'plone.app.dexterity[grok]',
+    'eke.knowledge',
 ]
 _classifiers = [
     'Development Status :: 3 - Alpha',
