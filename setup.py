@@ -12,13 +12,13 @@ import os.path
 _name        = 'eke.labcas'
 _version     = '0.0.0'
 _description = 'Laboratory Catalog and Archive Service for the EDRN Knowledge Environment'
-_url         = 'http://cancer.jpl.nasa.gov/products/eke-lavcas'
+_url         = 'http://cancer.jpl.nasa.gov/products/eke-labcas'
 _downloadURL = 'http://oodt.jpl.nasa.gov/dist/eke'
 _author      = 'Sean Kelly'
 _authorEmail = 'sean.kelly@jpl.nasa.gov'
 _maintainer      = 'Sean Kelly'
 _maintainerEmail = 'sean.kelly@jpl.nasa.gov'
-_license     = 'Proprietary'
+_license     = 'ALv2'
 _namespaces  = ['eke']
 _zipSafe     = False
 _keywords    = 'web zope plone edrn cancer biomarkers eke knowledge cas labcas laboratory'
@@ -43,7 +43,7 @@ _classifiers = [
     'Framework :: Plone',
     'Intended Audience :: Healthcare Industry',
     'Intended Audience :: Science/Research',
-    'License :: Other/Proprietary License',
+    'License :: OSI Approved :: Apache Software License',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Topic :: Internet :: WWW/HTTP',

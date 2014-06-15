@@ -1,0 +1,11 @@
+.DS_Store
+._*
+*.log
+*.py[co]
+dist
+build
+eggs
+develop-eggs
+parts
+var
+.*.cfg
