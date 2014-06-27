@@ -7,3 +7,6 @@ another egg.
 
 You don't need to specify a "ZCML slug" since this package uses
 ``z3c.autoinclude``.
+
+.. References:
+.. _buildout: http://buildout.org/
