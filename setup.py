@@ -9,20 +9,18 @@ import os.path
 # Package data
 # ------------
 
-_name        = 'eke.labcas'
-_version     = '0.0.0'
-_description = 'Laboratory Catalog and Archive Service for the EDRN Knowledge Environment'
-_url         = 'http://cancer.jpl.nasa.gov/products/eke-labcas'
-_downloadURL = 'http://oodt.jpl.nasa.gov/dist/eke'
-_author      = 'Sean Kelly'
-_authorEmail = 'sean.kelly@jpl.nasa.gov'
+_name            = 'eke.labcas'
+_version         = '0.0.1'
+_description     = 'Laboratory Catalog and Archive Service for the EDRN Knowledge Environment'
+_author          = 'Sean Kelly'
+_authorEmail     = 'sean.kelly@jpl.nasa.gov'
 _maintainer      = 'Sean Kelly'
 _maintainerEmail = 'sean.kelly@jpl.nasa.gov'
-_license     = 'ALv2'
-_namespaces  = ['eke']
-_zipSafe     = False
-_keywords    = 'web zope plone edrn cancer biomarkers eke knowledge cas labcas laboratory'
-_testSuite   = 'eke.labcas.tests.test_suite'
+_license         = 'ALv2'
+_namespaces      = ['eke']
+_zipSafe         = False
+_keywords        = 'web zope plone edrn cancer biomarkers eke knowledge cas labcas laboratory'
+_testSuite       = 'eke.labcas.tests.test_suite'
 _entryPoints     = {
     'z3c.autoinclude.plugin': ['target=plone'],
 }
@@ -59,7 +57,7 @@ def _read(*rnames):
 
 _header = '*' * len(_name) + '\n' + _name + '\n' + '*' * len(_name)
 _longDescription = _header + '\n\n' + _read('README.rst') + '\n\n' + _read('docs', 'INSTALL.txt') + '\n\n' \
-    + _read('docs', 'HISTORY.txt') + '\n\n' + _read('docs', 'LICENSE.txt')
+    + _read('docs', 'HISTORY.txt') + '\n'
 open('doc.txt', 'w').write(_longDescription)
 _cp = SafeConfigParser()
 _cp.read([os.path.join(os.path.dirname(__file__), 'setup.cfg')])
@@ -70,7 +68,6 @@ setup(
     author_email=_authorEmail,
     classifiers=_classifiers,
     description=_description,
-    download_url=_downloadURL,
     entry_points=_entryPoints,
     extras_require=_extras,
     include_package_data=True,
@@ -84,7 +81,7 @@ setup(
     namespace_packages=_namespaces,
     packages=find_packages('src', exclude=['ez_setup', 'bootstrap']),
     package_dir={'': 'src'},
-    url=_url,
+    url='https://github.com/EDRN/' + _name,
     version=_version,
     zip_safe=_zipSafe,
 )
