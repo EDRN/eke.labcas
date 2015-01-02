@@ -34,6 +34,7 @@ _externalRequirements = [
     'rdflib',
     'plone.app.dexterity[grok]',
     'eke.knowledge',
+    'Pillow',
 ]
 _classifiers = [
     'Development Status :: 3 - Alpha',

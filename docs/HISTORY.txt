@@ -6,6 +6,12 @@ are listed below, you can find out more about them by visiting the issue
 tracker at https://oodt.jpl.nasa.gov/jira/browse/CA.
 
 
+0.0.2 — TBD
+-----------
+
+• CA-1296 - Imaging libray missing
+
+
 0.0.1 — I Had Some Chicken; Pass Me the FLOSS
 ---------------------------------------------
 
