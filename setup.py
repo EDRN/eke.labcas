@@ -10,7 +10,7 @@ import os.path
 # ------------
 
 _name            = 'eke.labcas'
-_version         = '0.0.2'
+_version         = '0.0.3'
 _description     = 'Laboratory Catalog and Archive Service for the EDRN Knowledge Environment'
 _author          = 'Sean Kelly'
 _authorEmail     = 'sean.kelly@jpl.nasa.gov'
