@@ -7,7 +7,7 @@ u'''LabCAS for EKE — setup tests'''
 
 from eke.labcas.testing import EKE_LABCAS_INTEGRATION_TESTING
 from Products.CMFCore.utils import getToolByName
-import unittest2 as unittest
+import unittest
 
 class SetupTest(unittest.TestCase):
     layer = EKE_LABCAS_INTEGRATION_TESTING

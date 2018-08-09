@@ -5,7 +5,7 @@
 u'''LabCAS for EKE — functional doctests.'''
 
 import doctest
-import unittest2 as unittest
+import unittest
 from plone.testing import layered
 from eke.labcas.testing import EKE_LABCAS_FUNCTIONAL_TESTING as LAYER
 
